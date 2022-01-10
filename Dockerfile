@@ -9,3 +9,4 @@ RUN pip install --no-cache-dir pytest-cov
 RUN pip install --no-cache-dir numpy
 RUN pip install --no-cache-dir pandas
 RUN pip install --no-cache-dir matplotlib
+
