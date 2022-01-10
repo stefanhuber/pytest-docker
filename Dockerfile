@@ -1,7 +1,7 @@
-FROM python:alpine
+FROM python
 
-RUN apk update
-RUN apk add python3-dev gcc g++
+#RUN apk update
+#RUN apk add python3-dev gcc g++
 RUN python -m pip install --upgrade pip
 RUN pip install --no-cache-dir pytest
 RUN pip install --no-cache-dir pytest-cov
